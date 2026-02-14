@@ -48,6 +48,16 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.51.1")
     ksp("com.google.dagger:hilt-compiler:2.51.1")
 
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+
+    // Coroutines (já deixa pronto para Retrofit depois)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
